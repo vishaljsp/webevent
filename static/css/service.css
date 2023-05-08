@@ -1,0 +1,156 @@
+#bener {
+    height: 460px;
+    background-image: url('/static/image/service.jpg');
+    background-size: 100% 500px;
+}
+
+
+    /* Services */
+    .services {
+    padding: 100px 0;
+    }
+    
+    .services h2 {
+    font-size: 3em;
+    margin-bottom:
+    
+    ChatGPT
+    20px;
+    text-align: center;
+    }
+    
+    .services .service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    }
+    
+    .services .service img {
+    width: 40%;
+    }
+    
+    .services .service h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    }
+    
+    .services .service p {
+    font-size: 1.2em;
+    }
+    
+    /* Menu */
+    .menu {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+    }
+    
+    .menu h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .menu .menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    }
+    
+    .menu .menu-item img {
+    width: 40%;
+    }
+    
+    .menu .menu-item h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    }
+    
+    .menu .menu-item p {
+    font-size: 1.2em;
+    }
+    
+    /* About Us */
+    .about-us {
+    padding: 100px 0;
+    }
+    
+    .about-us h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .about-us p {
+    font-size: 1.2em;
+    line-height: 2;
+    margin-bottom: 40px;
+    text-align: center;
+    }
+    
+    .about-us .team-member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    }
+    
+    .about-us .team-member img {
+    width: 30%;
+    }
+    
+    .about-us .team-member h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    }
+    
+    .about-us .team-member p {
+    font-size: 1.2em;
+    }
+
+/* Contact Us */
+.contact-us {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+    }
+    
+    .contact-us h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    }
+    
+    .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    }
+    
+    .contact-form textarea {
+    height: 150px;
+    resize: none;
+    }
+    
+    .contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+    
+    .contact-form input[type="submit"]:hover {
+    background-color: #555;
+    }

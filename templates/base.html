@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+  <link rel="stylesheet" href="/static/css/footer.css" />
+  <link rel="stylesheet" href="/static/css/home.css" />
+  <link rel="stylesheet" href="/static/css/heder.css" />
+  <link rel="stylesheet" href="/static/css/gallery.css" />
+  <link rel="icon" href="/static/image/logo.jpeg">
+  {% block heders %}{% endblock heders %}
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-white shadow-lg" aria-label="Main navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/" style="width: 120px; height: 120px;"><img class="img-fluid mx-5"
+          src="/static/image/logo.jpeg" alt="logo" /></a>
+      <button class="navbar-toggler p-0 border-0 bg-dark" type="button" id="navbarSideCollapse"
+        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="navbar-collapse offcanvas-collapse mx-5" id="navbarsExampleDefault">
+        <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="nevlinks" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="nevlinks" href="/corporate-events">Corporate Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="nevlinks" href="/contact-us">Contact-us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="nevlinks" href="/about-us">About-us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="nevlinks" href="/wedding-events">Wedding Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="nevlinks" href="/party-oragnizer">Party Oragnizer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="nevlinks" href="/artist-management">Artist Management</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="nevlinks" href="/fest">Fest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="nevlinks" href="/catering-ervices">Catering Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" id="nevlinks" href="/gallery">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  {% block body %}
+
+  {% endblock body %}
+
+  <!-- <script src="/static/js/home.js"></script> -->
+
+
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>Brand Max<span>India</span></h3>
+
+      <p class="footer-links">
+        <a href="/">Home</a>
+        ·
+        <a href="/corporate-events">Corporate Events</a>
+        ·
+        <a href="/contact-us">Contact US</a>
+        ·
+        <a href="/about-us">About US</a>
+        ·
+        <a href="/gallery">Gallery</a>
+        .
+        <a href="/party-oragnizer">Party Oragnizer</a>
+        <a href="/artist-management">Artist Management</a>
+        .
+        <a href="/propety-expo">Propety Expo</a>
+        .
+        <a href="/catering-ervices">catering-ervices</a>
+        .
+        <a href="/fest">Fest</a>
+        ·
+        <a href="/wedding-events">Wedding Events</a>
+        .
+      </p>
+
+      <p class="footer-company-name"> Copyright © 2023 | Powered by [Brand Max India]</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Califonia </span> IN(India)</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91 88264 27111</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="brandmaxindia@gmail.com">brandmaxindia@gmail.com
+          </a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>About the company</span>
+        Brand Max India is a premier event management company dedicated to providing exceptional services to our clients.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="#"><i class="fa-brands fa-square-facebook fa-beat-fade" style="color: #4e7afd;"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram fa-beat-fade" style="color: #f31228;"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin fa-beat-fade" style="color: #8eb2f0;"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter fa-beat-fade" style="color: #87d2f2;"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp fa-beat-fade" style="color: #7cf21c;"></i></a>
+    
+
+      </div>
+
+    </div>
+
+  </footer>
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="/static/js/home.js"></script>
+  <script>
+    ; (function () {
+      'use strict'
+
+      document.querySelector('#navbarSideCollapse').addEventListener('click', function () {
+        document.querySelector('.offcanvas-collapse').classList.toggle('open')
+      })
+    })()
+  </script>
+</body>
+
+</html>

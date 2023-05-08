@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+{% block heders %}
+
+<style>
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 20%;
+  height: 200px;
+
+}
+.carousel-cell img{
+  width:95%;
+  height: 200px;
+  margin-left:auto;
+}
+
+
+
+</style>
+{% endblock %}
+{% block body %}
+<video style="margin-top: 5rem;" width="100%" loop autoplay muted id="vdo" >
+  <source src="/static/videoplayback.webm" type="video/webm" />
+</video>
+
+
+
+<main class="container my-5">
+  <div class="my-3 p-3 bg-body rounded shadow-lg">
+    <h1 class="text-center">All About Events</h1>
+    <div class="d-flex text-muted mx-5">
+      <p class="fs-5">BMI introduce itself as a leading advertising, marketing & event management company . For all the
+        solutions of brand promotions. Accelerate your brand with our dedicated solutions we offer intelligent concepts
+        & innovative ideas. Real Estate is the second largest industry in India. It is the demand of time to organize
+        this realty sector with the touch of entertainment or glamour to make the event more interesting for builders
+        and investors. Our versatile end to end media promotional and branding activities assures to provides great long
+        time relationship builders/ associates and end users. We provide the required platform for the participants to
+        materialize the maximum prevailing market opportunity cost. We custom design your event to outstand your
+        competitors , to get the attention of your target audience with style , creativity & quality cost effectively
+      </p>
+    </div>
+  </div>
+
+  <!-- about -->
+  <div class="my-2 p-3 bg-body rounded shadow-lg">
+    <h1 class="text-center">About-US</h1>
+    <div class="d-flex text-muted mx-5">
+      <p class="fs-5">BMI introduce itself as a leading advertising, marketing & event management company . For all the
+        solutions of brand promotions. Accelerate your brand with our dedicated solutions we offer intelligent concepts
+        & innovative ideas. Real Estate is the second largest industry in India. It is the demand of time to organize
+        this realty sector with the touch of entertainment or glamour to make the event more interesting for builders
+        and investors. Our versatile end to end media promotional and branding activities assures to provides great long
+        time relationship builders/ associates and end users. We provide the required platform for the participants to
+        materialize the maximum prevailing market opportunity cost. We custom design your event to outstand your
+        competitors , to get the attention of your target audience with style , creativity & quality cost effectively
+      </p>
+    </div>
+
+    <!-- <div class="mx-5"> -->
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <a href="/corporate-events" type="button" class="btn btn-outline-primary mx-2">Corporate Events</a>
+      <a href="/propety-expo" type="button" class="btn btn-outline-primary mx-1">Propety Expo</a>
+      <a href="/wedding-events" type="button" class="btn btn-outline-primary mx-2">Wedding Events</a>
+      <a href="/party-oragnizer" type="button" class="btn btn-outline-primary mx-2">Party Oragnizer</a>
+      <a href="/artist-management" type="button" class="btn btn-outline-primary mx-2">Artist Management</a>
+      <a href="/catering-ervices" type="button" class="btn btn-outline-primary mx-2">Catering Services</a>
+    </div>
+    <!-- </div> -->
+  </div>
+
+  <div class="my-3 p-3 bg-body shadow-lg">
+    <h1 class="text-center">Why Choose US ?</h1>
+    <div class="d-flex text-muted mx-5">
+      <p class="fs-5">BMI introduce itself as a leading advertising, marketing & event management company . For all the
+        solutions of brand promotions. Accelerate your brand with our dedicated solutions we offer intelligent concepts
+        & innovative ideas. Real Estate is the second largest industry in India. It is the demand of time to organize
+        this realty sector with the touch of entertainment or glamour to make the event more interesting for builders
+        and investors. Our versatile end to end media promotional and branding activities assures to provides great long
+        time relationship builders/ associates and end users. We provide the required platform for the participants to
+        materialize the maximum prevailing market opportunity cost. We custom design your event to outstand your
+        competitors , to get the attention of your target audience with style , creativity & quality cost effectively
+      </p>
+    </div>
+  </div>
+<br>
+  <!-- our Clients -->
+
+  
+  <h1 class="text-center">Our Clients</h1><br>
+
+
+  <!-- Flickity HTML init -->
+  <div class="carousel bg-body" data-flickity='{ "groupCells": true ,"autoPlay": true}'>
+    <div class="carousel-cell"><img src="/static/image/s1 (1).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (10).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (11).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (12).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (13).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (14).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (15).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (16).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (17).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (18).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (19).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (2).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (20).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (21).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (22).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (3).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (4).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (5).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (6).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (7).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (8).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1 (9).jpeg" alt="clients logo"></div>
+    <div class="carousel-cell"><img src="/static/image/s1.jpg" alt="clients logo"></div>
+   
+
+  </div>
+  
+
+  <!-- contact form -->
+  <div class="containercss my-5">
+    <div class="content">
+        <div class="left-side">
+            <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">A6 paschim vihar</div>
+                <div class="text-two">New Delhi India 110063</div>
+            </div>
+            <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">+91 88264 27111</div>
+            </div>
+            <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">brandmaxindia@gmail.com</div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>If you have any work from me or any types of quries related to my Events, you can send me message
+                from here. It's my pleasure to help you.</p>
+            <form action="#" method="post">
+            {% csrf_token %}
+
+                <div class="input-box">
+                    <input type="text" id="fname" name="fname" placeholder="Enter your name" required />
+                </div>
+                <div class="input-box">
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                </div>
+                <div class="input-box">
+                    <input type="number" id="number" name="number" placeholder="Enter your phone number" required />
+                </div>
+                <div class="input-box message-box">
+                    <div class="form-floating">
+                        <textarea class="form-control" id="dics" name="desc" class="p-5"
+                            placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Comments</label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="button" onclick="valide()" value="Send Now" />
+                </div>
+            </form>
+        </div>
+    </div>
+   
+  </div>
+</main>
+
+{% endblock %}

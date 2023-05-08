@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block heders %}
+<link rel="stylesheet" href="/static/css/party.css">
+{% endblock %}
+
+{% block body %}
+
+<div id="bener"></div> 
+
+<main>
+        <h2  class="text-center my-5">Our Services</h2>
+    <div class="row row-cols-2 row-cols-md-3 g-5 mx-2">
+     
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+                <h3>Catering</h3>
+                <p>We offer a wide range of catering services to suit your needs. From finger foods to full course meals, we have got you covered.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+                <h3>Decoration</h3>
+
+                <p>We offer decoration services for all types of events. Our team of professionals will create a theme that matches your event perfectly.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+                <h3>Event Planning</h3>
+                <p>We plan and execute all types of events, from birthday parties to corporate events.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    <section class="gallery mx-5 my-5">
+        <h2>Our Gallery</h2>
+        <div class="gallery-images">
+            <img src="/static/image/k1.jpg" alt="Gallery Image">
+            <img src="/static/image/k2.jpg" alt="Gallery Image">
+            <img src="/static/image/k3.jpg" alt="Gallery Image">
+            <img src="/static/image/k4.jpg" alt="Gallery Image">
+            <img src="/static/image/k5.jpg" alt="Gallery Image">
+            <img src="/static/image/k1.jpg" alt="Gallery Image">
+        </div>
+    </section>
+    <section class="about-us mx-5">
+        <h2>About Us</h2>
+        <p>We are a team of experienced event planners, decorators, and caterers. We have been in the industry for over 10 years and have organized numerous successful events. Our goal is to make your event unforgettable by providing high-quality services that match your requirements perfectly.</p>
+    </section>
+</main>
+{% endblock %}
